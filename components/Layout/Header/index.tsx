@@ -10,7 +10,7 @@ type HeaderProps = {
 
 const Header: FC<HeaderProps> = ({  }) => {
   return (
-    <header className='w-full fixed z-10 top-0 py-6 flex justify-center items-center border-b backdrop-blur-lg border-white/10'>
+    <header className='w-full fixed z-20 top-0 py-8 flex justify-center items-center  backdrop-blur-lg'>
         <div className='page-format flex items-center justify-between'>
             <div className='w-full' >
             <Link href={'/'} className='font-medium flex items-center gap-2'>

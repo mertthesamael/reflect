@@ -1,0 +1,65 @@
+
+
+
+export const CloudIcon = () => {
+
+    return (
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27 23C29.726 22.434 32 19.894 32 17C32 15.4087 31.3679 13.8826 30.2426 12.7574C29.1174 11.6321 27.5913 11 26 11C26 9.4087 25.3679 7.88258 24.2426 6.75736C23.1174 5.63214 21.5913 5 20 5C18.4087 5 16.8826 5.63214 15.7574 6.75736C14.6321 7.88258 14 9.4087 14 11C12.4087 11 10.8826 11.6321 9.75736 12.7574C8.63214 13.8826 8 15.4087 8 17C8 19.88 10.292 22.42 13 23" fill="url(#paint0_linear_536_8597)" fillOpacity="0.24"></path><path d="M27 23C29.726 22.434 32 19.894 32 17C32 15.4087 31.3679 13.8826 30.2426 12.7574C29.1174 11.6321 27.5913 11 26 11C26 9.4087 25.3679 7.88258 24.2426 6.75736C23.1174 5.63214 21.5913 5 20 5C18.4087 5 16.8826 5.63214 15.7574 6.75736C14.6321 7.88258 14 9.4087 14 11C12.4087 11 10.8826 11.6321 9.75736 12.7574C8.63214 13.8826 8 15.4087 8 17C8 19.88 10.292 22.42 13 23" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.32" d="M13 35V32H27V35H13Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M20 28V18" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M20 17L17 21H23L20 17Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8597" x1="20" y1="5" x2="20" y2="23" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+export const TargetIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M20 33C27.1797 33 33 27.1797 33 20C33 12.8203 27.1797 7 20 7C12.8203 7 7 12.8203 7 20C7 27.1797 12.8203 33 20 33Z" fill="url(#paint0_linear_536_8606)" fill-opacity="0.24" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M20 18C20.5304 18 21.0391 18.2107 21.4142 18.5858C21.7893 18.9609 22 19.4696 22 20C22 20.5304 21.7893 21.0391 21.4142 21.4142C21.0391 21.7893 20.5304 22 20 22C19.4696 22 18.9609 21.7893 18.5858 21.4142C18.2107 21.0391 18 20.5304 18 20C18 19.4696 18.2107 18.9609 18.5858 18.5858C18.9609 18.2107 19.4696 18 20 18Z" fill="#030014" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M20 5C20.5304 5 21.0391 5.21071 21.4142 5.58579C21.7893 5.96086 22 6.46957 22 7C22 7.53043 21.7893 8.03914 21.4142 8.41421C21.0391 8.78929 20.5304 9 20 9C19.4696 9 18.9609 8.78929 18.5858 8.41421C18.2107 8.03914 18 7.53043 18 7C18 6.46957 18.2107 5.96086 18.5858 5.58579C18.9609 5.21071 19.4696 5 20 5ZM20 31C20.5304 31 21.0391 31.2107 21.4142 31.5858C21.7893 31.9609 22 32.4696 22 33C22 33.5304 21.7893 34.0391 21.4142 34.4142C21.0391 34.7893 20.5304 35 20 35C19.4696 35 18.9609 34.7893 18.5858 34.4142C18.2107 34.0391 18 33.5304 18 33C18 32.4696 18.2107 31.9609 18.5858 31.5858C18.9609 31.2107 19.4696 31 20 31ZM33 18C33.5304 18 34.0391 18.2107 34.4142 18.5858C34.7893 18.9609 35 19.4696 35 20C35 20.5304 34.7893 21.0391 34.4142 21.4142C34.0391 21.7893 33.5304 22 33 22C32.4696 22 31.9609 21.7893 31.5858 21.4142C31.2107 21.0391 31 20.5304 31 20C31 19.4696 31.2107 18.9609 31.5858 18.5858C31.9609 18.2107 32.4696 18 33 18ZM7 18C7.53043 18 8.03914 18.2107 8.41421 18.5858C8.78929 18.9609 9 19.4696 9 20C9 20.5304 8.78929 21.0391 8.41421 21.4142C8.03914 21.7893 7.53043 22 7 22C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20C5 19.4696 5.21071 18.9609 5.58579 18.5858C5.96086 18.2107 6.46957 18 7 18Z" fill="#030014" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8606" x1="20" y1="7" x2="20" y2="33" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+export const IosIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27 14V8C27 7.20435 26.6839 6.44129 26.1213 5.87868C25.5587 5.31607 24.7956 5 24 5H8C7.20435 5 6.44129 5.31607 5.87868 5.87868C5.31607 6.44129 5 7.20435 5 8V32C5 32.7956 5.31607 33.5587 5.87868 34.1213C6.44129 34.6839 7.20435 35 8 35H24C24.7956 35 25.5587 34.6839 26.1213 34.1213C26.6839 33.5587 27 32.7956 27 32V25" fill="url(#paint0_linear_536_8614)" fill-opacity="0.24"></path><path d="M27 14V8C27 7.20435 26.6839 6.44129 26.1213 5.87868C25.5587 5.31607 24.7956 5 24 5H8C7.20435 5 6.44129 5.31607 5.87868 5.87868C5.31607 6.44129 5 7.20435 5 8V32C5 32.7956 5.31607 33.5587 5.87868 34.1213C6.44129 34.6839 7.20435 35 8 35H24C24.7956 35 25.5587 34.6839 26.1213 34.1213C26.6839 33.5587 27 32.7956 27 32V25" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M21 21V18H35V21H21Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.32" d="M9 14V11H23V14H9Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M20 5L18 7H14L12 5" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8614" x1="16" y1="5" x2="16" y2="35" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+
+export const LockIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 19V16C25 14.6739 24.4732 13.4021 23.5355 12.4645C22.5979 11.5268 21.3261 11 20 11C18.6739 11 17.4021 11.5268 16.4645 12.4645C15.5268 13.4021 15 14.6739 15 16V19" stroke="white"></path><path d="M13 26C13 26.7956 13.3161 27.5587 13.8787 28.1213C14.4413 28.6839 15.2044 29 16 29H24C24.7956 29 25.5587 28.6839 26.1213 28.1213C26.6839 27.5587 27 26.7956 27 26V20H13V26Z" fill="white" stroke="white"></path><path d="M11 35H9C7.93913 35 6.92172 34.5786 6.17157 33.8284C5.42143 33.0783 5 32.0609 5 31V9C5 7.93913 5.42143 6.92172 6.17157 6.17157C6.92172 5.42143 7.93913 5 9 5H31C32.0609 5 33.0783 5.42143 33.8284 6.17157C34.5786 6.92172 35 7.93913 35 9V31C35 32.0609 34.5786 33.0783 33.8284 33.8284C33.0783 34.5786 32.0609 35 31 35H29" fill="url(#paint0_linear_536_8623)" fill-opacity="0.24"></path><path d="M11 35H9C7.93913 35 6.92172 34.5786 6.17157 33.8284C5.42143 33.0783 5 32.0609 5 31V9C5 7.93913 5.42143 6.92172 6.17157 6.17157C6.92172 5.42143 7.93913 5 9 5H31C32.0609 5 33.0783 5.42143 33.8284 6.17157C34.5786 6.92172 35 7.93913 35 9V31C35 32.0609 34.5786 33.0783 33.8284 33.8284C33.0783 34.5786 32.0609 35 31 35H29" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M15 35H25" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8623" x1="20" y1="5" x2="20" y2="35" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+export const CalendarIcon = () => {
+
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M29.2 11H10.8C10.0574 11 9.3452 11.281 8.8201 11.781C8.295 12.2811 8 12.9594 8 13.6667V29.3333C8 30.0406 8.295 30.7189 8.8201 31.219C9.3452 31.719 10.0574 32 10.8 32H29.2C29.9426 32 30.6548 31.719 31.1799 31.219C31.705 30.7189 32 30.0406 32 29.3333V13.6667C32 12.9594 31.705 12.2811 31.1799 11.781C30.6548 11.281 29.9426 11 29.2 11Z" fill="url(#paint0_linear_536_8632)" fill-opacity="0.24" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M8 14C8 13.2044 8.295 12.4413 8.8201 11.8787C9.3452 11.3161 10.0574 11 10.8 11H29.2C29.9426 11 30.6548 11.3161 31.1799 11.8787C31.705 12.4413 32 13.2044 32 14V15H8V14Z" fill="white" fill-opacity="0.5" stroke="white"></path><path d="M12 8V11M28 8V11" stroke="white" strokeLinecap="round"></path><path d="M13 21V19H15V21H13ZM13 27V25H15V27H13ZM19 21V19H21V21H19ZM19 27V25H21V27H19Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M25 21V19H27V21H25Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8632" x1="22" y1="11" x2="22" y2="35" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+
+export const CursorIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M18 17V35L23 28H32L18 17Z" fill="white" stroke="white" strokeLinejoin="round"></path><path d="M20 29C24.9706 29 29 24.9706 29 20C29 15.0294 24.9706 11 20 11C15.0294 11 11 15.0294 11 20C11 24.9706 15.0294 29 20 29Z" fill="white" fill-opacity="0.12"></path><path opacity="0.4" d="M20 5V7" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M27.5 7.01001L26.5 8.74201M32.99 12.5L31.258 13.5M35 20H33M8.742 26.5L7.01 27.5M7 20H5" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M8.74177 13.5L7.00977 12.5M13.4998 8.74201L12.4998 7.01001" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+    )
+}
+
+
+
+export const CaptureIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M27 8V6C27 5.73478 26.8946 5.48043 26.7071 5.29289C26.5196 5.10536 26.2652 5 26 5H6C5.73478 5 5.48043 5.10536 5.29289 5.29289C5.10536 5.48043 5 5.73478 5 6V34C5 34.2652 5.10536 34.5196 5.29289 34.7071C5.48043 34.8946 5.73478 35 6 35H26C26.2652 35 26.5196 34.8946 26.7071 34.7071C26.8946 34.5196 27 34.2652 27 34V20" fill="url(#paint0_linear_536_8652)" fill-opacity="0.24"></path><path d="M27 8V6C27 5.73478 26.8946 5.48043 26.7071 5.29289C26.5196 5.10536 26.2652 5 26 5H6C5.73478 5 5.48043 5.10536 5.29289 5.29289C5.10536 5.48043 5 5.73478 5 6V34C5 34.2652 5.10536 34.5196 5.29289 34.7071C5.48043 34.8946 5.73478 35 6 35H26C26.2652 35 26.5196 34.8946 26.7071 34.7071C26.8946 34.5196 27 34.2652 27 34V20" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M5 32C5 32.7956 5.31607 33.5587 5.87868 34.1213C6.44129 34.6839 7.20435 35 8 35H24C24.7956 35 25.5587 34.6839 26.1213 34.1213C26.6839 33.5587 27 32.7956 27 32V31H5V32Z" fill="white" stroke="white"></path><path d="M10 26V24H22V26H10Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M10 20H22" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M24 14H34" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M35 14L31 11V17L35 14Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M14.25 33C14.25 32.5858 14.5858 32.25 15 32.25H17C17.4142 32.25 17.75 32.5858 17.75 33C17.75 33.4142 17.4142 33.75 17 33.75H15C14.5858 33.75 14.25 33.4142 14.25 33Z" fill="#080624"></path><defs><linearGradient id="paint0_linear_536_8652" x1="16" y1="5" x2="16" y2="35" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
+
+
+
+export const WindowIcon = () => {
+
+    return(
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M32 5H8C7.20435 5 6.44129 5.31607 5.87868 5.87868C5.31607 6.44129 5 7.20435 5 8V32C5 32.7956 5.31607 33.5587 5.87868 34.1213C6.44129 34.6839 7.20435 35 8 35H32C32.7956 35 33.5587 34.6839 34.1213 34.1213C34.6839 33.5587 35 32.7956 35 32V8C35 7.20435 34.6839 6.44129 34.1213 5.87868C33.5587 5.31607 32.7956 5 32 5Z" fill="url(#paint0_linear_536_8664)" fill-opacity="0.24" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path d="M9 9H9.01M12 9H12.01M15 9H15.01" stroke="white" stroke-width="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M13 27V22H27V27H13Z" fill="white" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><path opacity="0.4" d="M13 19H12C11.4696 19 10.9609 19.2107 10.5858 19.5858C10.2107 19.9609 10 20.4696 10 21V22M27 19H28C28.5304 19 29.0391 19.2107 29.4142 19.5858C29.7893 19.9609 30 20.4696 30 21V22M13 30H12C11.4696 30 10.9609 29.7893 10.5858 29.4142C10.2107 29.0391 10 28.5304 10 28V27M27 30H28C28.5304 30 29.0391 29.7893 29.4142 29.4142C29.7893 29.0391 30 28.5304 30 28V27" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path><defs><linearGradient id="paint0_linear_536_8664" x1="20" y1="5" x2="20" y2="35" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0"></stop><stop offset="1" stopColor="white"></stop></linearGradient></defs></svg>
+    )
+}
