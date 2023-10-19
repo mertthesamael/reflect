@@ -8,11 +8,19 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+
+
+
 @layer components{
   /* Layout Classes */
   .page-format{
     @apply w-full max-w-[1250px]
   }
+  .title-gradient{
+    background: linear-gradient(180deg,#fff 0%,rgba(255,255,255,.7) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 }
 
 @media (prefers-color-scheme: dark) {
