@@ -16,10 +16,60 @@
   .page-format{
     @apply w-full max-w-[1250px]
   }
+
+
+
+
+  /* Style Classes */
+
+      /* Radar Animation Section */
+      .radar-section-bg{
+        background: linear-gradient(180deg,rgba(3,0,20,.8) 0%,#030014 37.87%);
+      }
+      .radar-scanner{
+        -webkit-clip-path: polygon(0 0,93.3673469388% 0,93.3673469388% 25.1275510204%,50% 50.1275510204%,0 50.1275510204%);
+        clip-path: polygon(0 0,93.3673469388% 0,93.3673469388% 25.1275510204%,50% 50.1275510204%,0 50.1275510204%);
+        height: 780px;
+        position: absolute;
+        top: 0;
+        top:57px;
+        transform: rotate(-201deg);
+        width: 780px;
+        animation: radarRotate 10s infinite linear;
+        
+      }
+
+      .radar-scanner::before{
+        content: "";
+        background: linear-gradient(267deg,rgba(99,102,241,.4) 13.23%,rgba(3,0,20,0) 50%);
+        border-radius: 50%;
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      
+  .service-card-bg{
+    transition: all 2s ease;
+    background:radial-gradient(100% 146.88% at 100% 100%,rgba(255,255,255,.03) 0%,rgba(3,0,20,0) 100%);
+  }
+  .service-card-bg:hover{
+    background:radial-gradient(100% 100.88% at 0% 100%,rgba(255,255,255,.03) 0%,rgba(3,0,20,0) 100%);
+  }
+
   .title-gradient{
     background: linear-gradient(180deg,#fff 0%,rgba(255,255,255,.7) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+}
+
+@keyframes radarRotate {
+  0% {
+    transform: rotate(-201deg);
+}
+100% {
+    transform: rotate(159deg);
 }
 }
 

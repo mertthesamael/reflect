@@ -6,7 +6,7 @@ type FeatureCardProps = {
 
 const FeatureCard: FC<FeatureCardProps> = ({ feature }) => {
   return (
-    <div className={`py-6 px-8 w-[300px] h-[196px] border-2 flex flex-col gap-4 border-white/10`}>
+    <div className={`py-6 px-8 w-[300px] h-[196px] border-2 flex flex-col gap-4 border-white/10 backdrop-blur-2xl`}>
         <div>
             {feature.icon}
         </div>
