@@ -16,8 +16,9 @@ export const useSpotlightEffect = () => {
 
         const div = divRef.current;
         const rect = div.getBoundingClientRect();
-
-        setPosition({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+        setTimeout(() => {
+            setPosition({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+        }, 150);
     };
 
     const handleFocus = () => {

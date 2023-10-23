@@ -19,7 +19,7 @@ const AiSection: FC<AiSectionProps> = ({ }) => {
             <div className='page-format flex-col flex justify-evenly items-center h-full'>
                 <div className='relative flex flex-col items-center justify-center xl:justify-evenly gap-16 h-screen w-full'>
                     <div className='flex '>
-                        <SectionTitle title='Notes with an AI assistant' description='Reflect uses GPT-4 and Whisper from OpenAI to improve your writing, organize your thoughts, and act as your intellectual thought partner.' mobileSplitFrom='Notes with' />
+                        <SectionTitle badgeText='Reflect AI' title='Notes with an AI assistant' description='Reflect uses GPT-4 and Whisper from OpenAI to improve your writing, organize your thoughts, and act as your intellectual thought partner.' mobileSplitFrom='Notes with' />
                     </div>
                     <div className='flex  z-10 p-2 border w-max border-white/10 gap-6 backdrop-blur-xl bg-white/5 rounded-2xl'>
                         <div className='p-6 z-10 flex flex-col border  border-white/10 gap-6 bg-purple-800/5  rounded-xl'>

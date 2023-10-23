@@ -25,7 +25,7 @@ const FeaturesSection: FC<FeaturesSectionProps> = ({ }) => {
             onBlur={handleBlur}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            ref={divRef} style={{ background: `radial-gradient(800px circle at ${position.x}px ${position.y}px, rgba(255,255,255,${opacity}), transparent 50%)` }} className='w-full hidden xl:grid grid-cols-4 gap-4'
+            ref={divRef} style={{transition:'all 2s ease', background: `radial-gradient(800px circle at ${position.x}px ${position.y}px, rgba(234,8,255,${opacity}), transparent 50%)` }} className='w-full z-10 hidden xl:grid grid-cols-4 gap-4'
                 >
                     {features.map((el, _i) => (
                         <FeatureCard key={_i} feature={el} />

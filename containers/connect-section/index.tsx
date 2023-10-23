@@ -15,8 +15,8 @@ const ConnectSection: FC<ConnectSectionProps> = ({ }) => {
         <section className='flex justify-center w-full py-20 min-h-screen'>
             <div className='page-format flex items-center flex-col relative'>
                 <div className='w-full h-full relative'>
-                    <div className='w-full h-full flex justify-center items-end py-52'>
-                        <SectionTitle title='Give your brain superpowers' mobileSplitFrom='Give your brain' description='Mirror the way your mind works by associating notes through backlinks. Reflect builds you a second brain that you can reference anytime.' />
+                    <div className='w-full h-full flex justify-center items-end py-52 relative top-32 xl:top-20'>
+                        <SectionTitle badgeText='All your notes, connected' title='Give your brain superpowers' mobileSplitFrom='Give your brain' description='Mirror the way your mind works by associating notes through backlinks. Reflect builds you a second brain that you can reference anytime.' />
                     </div>
                     <Image ref={elementRef} alt='Bg' src={'/connect-bg.png'} fill className=' object-contain opacity-0' />
                 </div>

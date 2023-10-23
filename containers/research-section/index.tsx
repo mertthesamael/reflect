@@ -19,9 +19,10 @@ const ResearchSection: FC<ResearchSectionProps> = ({ }) => {
                     <div className='radar-scanner ' />
                 </div>
 
-                <div className='flex flex-col w-full -bottom-56 xl:bottom-0 items-center min-h-[750px] gap-20 radar-section-bg z-10 justify-center absolute py-10 '>
+                <div className='flex flex-col w-full -bottom-72 xl:-bottom-5 items-center min-h-[750px] gap-20 radar-section-bg z-10 justify-center absolute py-10 '>
                     <Image src={'/logo-circle.png'} alt='Logo' width={60} height={60} className='absolute -top-[30px]' />
-                    <SectionTitle title='Never lose information' mobileSplitFrom='Never lose' description='Collect your web snippets, Kindle highlights and important links all in one place.
+                    <SectionTitle badgeText='Research and reading
+' title='Never lose information' mobileSplitFrom='Never lose' description='Collect your web snippets, Kindle highlights and important links all in one place.
                     Then quickly find them again from any device.' />
                     <div className='flex flex-col xl:flex-row'>
                         <ServiceCard/>

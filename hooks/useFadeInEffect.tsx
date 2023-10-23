@@ -11,9 +11,8 @@ export const useFadeInEffect = () => {
 
     useEffect(() => {
         if (elementRef.current) {
-
             inView(elementRef.current, (info) => {
-                const animation = animate(info.target, { opacity: 1 },{duration:1,delay:0.5})
+                const animation = animate(info.target, { opacity: 1 },{duration:0.5,delay:0.5})
                 console.log("Element has entered the viewport")
             })
         }

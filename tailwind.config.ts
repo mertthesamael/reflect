@@ -9,6 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        upndown: 'upndown 5s ease-in-out infinite',
+      },
+      keyframes:{
+        upndown: {
+          '0%, 90%, 100%': { transform: 'translateY(-2rem)' },
+          '50%, 75%, 80%': { transform: 'translateY(0)' },
+        }
+      },
       boxShadow: {
         'button-shadow': 'inset 0 0 12px #bf97ff3d',
         'button-shadow-hover': 'inset 0 0 50px rgba(180, 100, 255, 0.25)',
