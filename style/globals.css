@@ -14,7 +14,7 @@
 @layer components{
   /* Layout Classes */
   .page-format{
-    @apply w-full max-w-[1250px]
+    @apply w-full px-5  xl:px-0 max-w-[1250px]
   }
 
 

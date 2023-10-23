@@ -10,7 +10,7 @@ type HeaderProps = {
 
 const Header: FC<HeaderProps> = ({  }) => {
   return (
-    <header className='w-full fixed z-20 top-0 py-8 flex justify-center items-center  backdrop-blur-lg'>
+    <header className='w-full fixed z-20 top-0 py-4 xl:py-8 flex justify-center items-center  backdrop-blur-lg'>
         <div className='page-format flex items-center justify-between'>
             <div className='w-full' >
             <Link href={'/'} className='font-medium flex items-center gap-2'>
@@ -18,7 +18,7 @@ const Header: FC<HeaderProps> = ({  }) => {
             Reflect
                 </Link>
             </div>
-            <nav className='flex items-center border  backdrop-blur-lg bg-white/5 rounded-full border-white/10 px-4 py-2'>
+            <nav className='xl:flex hidden items-center border  backdrop-blur-lg bg-white/5 rounded-full border-white/10 px-4 py-2'>
               <ul className='flex items-center gap-5 '>
                 {headerNavs.map((el,_i) => (
                 <li key={_i} className='capitalize text-sm text-white/90 transition-all duration-300 hover:text-white/50'>

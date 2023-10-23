@@ -8,8 +8,8 @@ type ServiceCardProps = {
 
 const ServiceCard: FC<ServiceCardProps> = ({  }) => {
   return (
-    <div className='w-[486px]  flex flex-col'>
-        <div className='w-full h-[256px] relative'>
+    <div className='w-[350px] xl:w-[486px]  flex flex-col'>
+        <div className='w-full h-[150px] xl:h-[256px] relative'>
             <Image src={'/connect-card-bg.png'} fill alt='Card BG Reflect' className='object-contain'/>
         </div>
         <div className='w-full px-10 py-5 flex flex-col gap-4 transition-all service-card-bg'>
