@@ -3,6 +3,7 @@ import ConnectSection from '@/containers/connect-section'
 import FeaturesSection from '@/containers/features-section'
 import HeroSection from '@/containers/hero-section'
 import ResearchSection from '@/containers/research-section'
+import SecuritySection from '@/containers/security-section'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AiSection />
       <ConnectSection />
       <ResearchSection />
+      <SecuritySection />
     </main>
   )
 }
