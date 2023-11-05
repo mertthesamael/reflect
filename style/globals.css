@@ -62,6 +62,11 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .highlight-gradient{
+    background: linear-gradient(90.01deg,#e59cff .01%,#ba9cff 50.01%,#9cb2ff 100%),linear-gradient(180deg,rgba(255,255,255,.4) 0%,rgba(255,255,255,.28) 100%);;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .title-badge-gradient{
     background: linear-gradient(0deg,rgba(255,255,255,.4),rgba(255,255,255,.4)),linear-gradient(90.01deg,#e59cff .01%,#ba9cff 50.01%,#9cb2ff 100%);
     -webkit-background-clip: text;
